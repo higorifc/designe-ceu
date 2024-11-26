@@ -1,0 +1,92 @@
+html{
+    font-size: calc(1vw + 8);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 3vw 4vw;
+}
+nav ul{
+    display: flex;    
+}
+nav ul li {
+    margin: 0 2vw;
+}
+nav a {
+    color: black;
+}
+nav span {
+    color: #1090CB;
+}
+nav button {
+    border-radius: 5px;
+    height: 40px;
+    padding: 2px 6px;
+    background-color: #1090CB;
+}
+nav button a {
+    color: white;
+}
+.banner {
+    display: flex;
+    background-color: #1090cb1a;
+    justify-content: space-between;
+}
+.banner div {
+    margin: 0vw 5vw;
+}
+.banner div.espace {
+    margin: 7vw 4vw;
+}
+.banner h1 {
+    font-size: 3vw;
+    line-height: 4vw;
+}
+.banner span {
+    color: #1090CB;
+}
+.banner p {
+    font-size: 20px;
+    line-height: 40px ;
+    margin: 2vw 0;
+    color: #5C5C5C;
+
+}
+.banner ul {
+    display: flex;
+    
+}
+.banner li {
+    margin: 2vw;
+}
+.banner button {
+    height: 3vw;
+    width: 13vw;
+    border-radius: 10px;
+    font-size: 20px;
+} 
+.banner button.um {
+    background-color: #1090CB;
+}
+.banner button.um a.um {
+    color: white;
+}
+.banner button.dois {
+    background-color: #ffffff;
+    border: 2px #1090CB solid;
+}
+.banner button.dois a.dois {
+    color: #1090CB;
+}
+.banner img {
+    height: 40vw;
+}
+.option ul {
+    margin: 2vw 3vw;
+    display: flex;
+    justify-content: space-around;
+}
+.option li {
+    display: flex;
+}
