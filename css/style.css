@@ -90,3 +90,150 @@ nav button a {
 .option li {
     display: flex;
 }
+.option {
+    margin: 4vw 0;
+}
+.option div {
+    margin: 0 2vw;
+}
+.option p {
+    color: #969696;
+    margin: 10px 0;
+}
+.option img.web {
+    background-color: #efeaff;
+    border-radius: 10px ;
+    padding: 1vw;
+
+}
+.option img.seo {
+    background-color: #ecffda;
+    border-radius: 10px ;
+    padding: 1vw;
+}
+.option img.ar {
+    background-color: #dae6ff;
+    border-radius: 10px ;
+    padding: 1vw;
+}
+.option img.mobile {
+    background-color: #ffe5da;
+    border-radius: 10px ;
+    padding: 1vw;
+}
+.option img.linha {
+    justify-content: center;
+}
+
+
+
+.celu li {
+    display: flex;
+    margin: 8vw 0;
+    justify-content: space-between;
+}
+.celu p {
+    font-size: 20px;
+    color: #868686;
+}
+.celu {
+    margin: 10vw 6vw;
+    text-align: center;
+}
+.celu h3 {
+    font-size: 2vw;
+    margin: 9vw 0 4vw 0;
+}
+.celu span {
+    color: #1090CB;
+}
+.celu li p {
+    font-size: 20px;
+    line-height: 40px;
+    text-align: start;
+    color: #252525;
+}
+.celu li h3 {
+    text-align: start;
+}
+.celu h1 {
+    font-size: 2vw;
+    color: #252525;
+    margin: 3vw 0;
+}
+
+.duas {
+    text-align: center;
+    margin: 13vw 0;
+}
+.duas ul {
+    margin: 4vw;
+    display: flex;
+    justify-content: space-around;
+}
+.duas li {
+    height: 30vw;
+    width: 30vw;
+    border-radius: 2vw;
+}
+.duas li.dois {
+    background-color: #1090CB;
+    color: white;
+}
+.duas li.um {
+    background-color: #f4f4f4;
+}
+.duas h2 {
+    margin: 4vw 0;
+    font-size: 30px;
+    line-height: 45px;
+}
+.duas p {
+    line-height: 160%;
+}
+.duas button {
+    width: 8vw;
+    height: 3vw;
+    margin: 3vw 0;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.duas button.white {
+    background-color: white;
+    color: #1090CB;
+}
+.duas button.blue {
+    background-color: #1090CB;
+    color: white;
+}
+
+.email {
+    background-color: #e8f4fa;
+    height: 30vw ;
+    text-align: center;
+}
+.email h1 {
+    font-size: 50px;
+    line-height: 140%;
+    padding: 9vw 0;
+}
+.email form input {
+    height: 4vw;
+    width: 40vw;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.email form button {
+    height: 4vw;
+    width: 10vw;
+    background-color: #252525;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 10vw;
+}
